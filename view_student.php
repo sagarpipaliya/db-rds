@@ -1,6 +1,6 @@
 <?php 
 	$con = mysqli_connect('studentdb.c9dqyjiw7mfq.us-east-1.rds.amazonaws.com','admin123','admin123','studentdb','3306');
-	$qry="select * from stud order by sname desc";
+	$qry="select * from stud";
 	$res=mysqli_query($con,$qry);
 ?>
 <!DOCTYPE html>
