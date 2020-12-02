@@ -1,5 +1,5 @@
 <?php 
-	$con = mysqli_connect('studentdb.c9dqyjiw7mfq.us-east-1.rds.amazonaws.com','admin123','admin123','studentdb','3306');
+	include 'connection.php';
 
 
 	if (isset($_POST['submit'])) {
